@@ -1,0 +1,16 @@
+div {
+  font-size: large;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: lemonchiffon;
+  color: purple;
+  margin-bottom: 30px;
+}
+.navbar a {
+  color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */
