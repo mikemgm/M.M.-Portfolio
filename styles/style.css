@@ -1,35 +1,36 @@
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  width: 100%;
+body {
+  background-color: white;
+}
+
+.nav {
   background: #000862;
   margin: 0;
   color: whitesmoke;
 }
-.navbar ul {
+.nav ul {
   list-style-type: none;
 }
-.navbar a {
+.nav a {
   color: whitesmoke;
   text-decoration: none;
 }
 
-#me {
+.header {
+  background-image: url("/Users/mikemccallum/CODES/Assignments/Portfolio/images/hero_dummy.jpg");
+  background-color: #000862;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header #headertext {
   text-align: center;
-}
-
-.container1 {
-  background: #000862;
-  color: whitesmoke;
-  display: flex;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: olivedrab;
 }
 
 /*# sourceMappingURL=style.css.map */

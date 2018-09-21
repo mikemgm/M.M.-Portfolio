@@ -1,62 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MM Portfolio</title> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MM Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
-    <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" /> 
+        <link rel="stylesheet" href="/images/..">
+        <script src="main.js"></script>
 </head>
 <body> 
-        <nav class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li> 
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul> 
-                <div><h1>M.M.</h1></div> 
-        </nav> 
-    <header class="header">
-            <p id="me"> "I AM MIKE MCCALLUM " 
-                Subtitle Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vero veniam ratione sapiente? Deserunt sequi consequuntur sapiente, molestias quaerat error beatae voluptatum a et mollitia! A harum eveniet quod labore.</p> 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-*" style="background-color: #000862;" >
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">M.M.</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#about">About</a>
+                                  </li> 
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#work">Work</a>
+                                   </li> 
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#skills">Skills</a>
+                                  </li> 
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#contact">Contact</a>
+                                  </li>
+                  </ul>
+                  
+                </div>
+        </nav>
+       <header> 
+            <div class="header">
+                <div id="headertext">
+                    <h2>"I AM MIKE MCCALLUM "</h2> 
+                Subtitle Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vero veniam ratione sapiente? Deserunt sequi consequuntur sapiente, molestias quaerat error beatae voluptatum a et mollitia! A harum eveniet quod labore.
+                </div>    
+            </div>
 
-    </header>
-    <section class= "container1">
+    </header> 
+    <section class= "container">
         <div class="hero">
             <h3 id="hello">Hello Friend! Welcome!</h3> 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi voluptate ducimus velit eius recusandae ea nemo laborum eligendi odio quod? Iste similique expedita tenetur repellat deserunt odio tempore voluptates id?</p>   
         </div>
    </section> 
 
-    <div class= "aboutme">
-       <h2>A Little About Myself</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi quam, impedit ea quidem enim eaque soluta. Consequatur, molestiae. Repellendus impedit hic voluptatem, fuga saepe maxime tenetur sed repudiandae! Quam.</p>
-    </div>
+   <div class="container"> 
+    <a name="about"></a>
+        <h2>A Little About Myself</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi quam, impedit ea quidem enim eaque soluta. Consequatur, molestiae. Repellendus impedit hic voluptatem, fuga saepe maxime tenetur sed repudiandae! Quam.</p>
+      </div>
+       
 
     <section class="professional">
-    <div class="mywork">
+    <div class="mywork"> 
+    <a name="work"></a>
         <h3>What I have accomplished</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus illum cupiditate magni quos laudantium odio officiis nemo vitae! Dignissimos unde deserunt quam ipsum cupiditate, enim deleniti tenetur dolorem aliquam rerum?</p>
     </div> 
 
-    <div class="skills">
+    <div class="skills"> 
+    <a name="skills"></a>
         <h3>My Skills</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia iste a nemo eligendi harum quam asperiores quidem placeat obcaecati animi iure natus quisquam repellendus voluptatibus, quia ducimus nesciunt maiores.</p>
 
     </div>
     </section>
 
-    <div class="contact">
+    <div class="contact"> 
+    <a name="contact"></a>
         <h3>Lets Work Together!</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vero optio blanditiis ab labore ex laudantium libero eaque sequi molestiae placeat recusandae esse necessitatibus, possimus eos. Quo similique architecto illo!</p>
 
     </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html> 
 
