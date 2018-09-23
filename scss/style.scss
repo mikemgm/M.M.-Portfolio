@@ -1,57 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
 body {
     background-color: white
-}
-
-.nav{ 
-    
-    background: #000862;
-    margin: 0;
-    color: whitesmoke;
-
-
-ul {
-    list-style-type: none; 
-   
-} 
-a {
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-} 
-
-.header{
-    background-image: url("/Users/mikemccallum/CODES/Assignments/Portfolio/images/hero_dummy.jpg");
-    background-color: #000862;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; 
-
-#headertext{
-    text-align: center;
-    position: absolute;
-     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: olivedrab;
-}
-
-
 }  
 
-.mywork{
-    background-color: #000862;
-    color: whitesmoke;
+.jumbotron{
+    text-align: center;
+    margin-top: 15px; 
+    background-image: url(/Users/mikemccallum/CODES/Assignments/Portfolio/images/cover.jpg); 
+    background-size:cover;
+    height: 475px;
+    color: white; 
+    font-family: "Montserrat", sans-serif;
+
+.display-4{ 
+    margin-top: 20px;
+    margin-bottom: 158px;
+
+}
+#lead1{
+    margin-top: 150px;
+    font-size: x-large;
+}    
+
+} 
+
+.mesection{
+    margin-bottom: 130px;
+}
+
+#about{
+    text-align: center; 
+    margin-top: 100px;
+    margin-bottom: 75px; 
+    font-family: "Raleway", sans-serif;
+
+} 
+#myself{
+    font-family: "Raleway", sans-serif; 
+    font-weight: 600; 
+    font-size: 18px; 
+    line-height: 2em;
     
 } 
 
-.contact{
-    background-color: #000862;
-    color: whitesmoke;
-    
+.rounded-circle{ 
+    margin-top: 50px;
+    width: 230px;
+} 
+
+.ml-3{
+    width: 300px;
+    height: 200px
 }
+.col-md-8{
+    text-align: left; 
+    margin-bottom: 85px; 
+}
+.col-md-4{
+    margin-bottom: 130px;
+}
+// #header{
+//     text-align: center;
+//     margin-top: 75px; 
+//     margin-bottom: 75px; 
+//     padding: 40px 0px 40px 0px;
+
+// }
+
+// .nav{ 
+    
+//     background: #000862;
+//     margin: 0;
+//     color: whitesmoke;
+
+
+// ul {
+//     list-style-type: none; 
+   
+// } 
+// a {
+//     color: whitesmoke;
+//     text-decoration: none;
+// }
+
+// } 
+
+
 
 
 // style="b;"
