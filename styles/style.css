@@ -66,4 +66,15 @@ body {
   .mywork .blockquote-footer {
     color: white; }
 
+.skills {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background: #000862;
+  height: 515px; }
+  .skills #mytech {
+    padding-top: 1em; }
+
+.img-thumbnail {
+  height: 140px; }
+
 /*# sourceMappingURL=style.css.map */

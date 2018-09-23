@@ -87,14 +87,30 @@ body {
 }
 .blockquote-footer{
     color: white;
+}
+} 
 
+.skills{ 
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: #000862;
+    height: 515px;
+
+#mytech{
+padding-top: 1em;
+} 
+
+// #skillsimg{
+//     flex-direction: row;
+//     justify-content: space-between;
+//     margin-top: 3em;
+}
+
+.img-thumbnail{
+    height: 140px;
 }
 
 
-
-
-
-}
 
 
 
