@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
 body {
-  background-color: white; }
+  background-color: white;
+  text-align: center; }
 
 .jumbotron {
   text-align: center;
@@ -70,11 +71,30 @@ body {
   font-family: "Raleway", sans-serif;
   color: white;
   background: #000862;
-  height: 515px; }
-  .skills #mytech {
+  height: 607px; }
+  .skills #myskills {
     padding-top: 1em; }
+  .skills #socialimg {
+    height: 125px; }
+  @media (min-width: 576px) {
+    .skills .skills {
+      height: 275px; } }
 
-.img-thumbnail {
-  height: 140px; }
+#contact {
+  margin-top: 3em;
+  font-family: "Raleway", sans-serif; }
+
+.col-md-6 mb3 {
+  padding-bottom: 3em; }
+
+#social {
+  display: flex;
+  justify-content: center;
+  padding-top: 6em; }
+
+#socialicon {
+  height: 75px;
+  text-align: center;
+  margin-bottom: 3em; }
 
 /*# sourceMappingURL=style.css.map */
