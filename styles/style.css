@@ -1,35 +1,103 @@
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  width: 100%;
-  background: #000862;
-  margin: 0;
-  color: whitesmoke;
-}
-.navbar ul {
-  list-style-type: none;
-}
-.navbar a {
-  color: whitesmoke;
-  text-decoration: none;
-}
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
+body {
+  background-color: white;
+  text-align: center; }
 
-#me {
+.jumbotron {
   text-align: center;
-}
+  margin-top: 15px;
+  background-image: url(/Users/mikemccallum/CODES/Assignments/Portfolio/images/cover.jpg);
+  background-size: cover;
+  height: 475px;
+  color: white;
+  font-family: "Montserrat", sans-serif; }
+  .jumbotron .display-4 {
+    margin-top: 20px;
+    margin-bottom: 158px; }
+  .jumbotron #lead1 {
+    margin-top: 150px;
+    font-size: x-large; }
 
-.container1 {
+.mesection {
+  margin-bottom: 130px; }
+
+#about {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 75px;
+  font-family: "Raleway", sans-serif; }
+
+#myself {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2em; }
+
+.rounded-circle {
+  margin-top: 50px;
+  width: 230px; }
+
+.ml-3 {
+  width: 300px;
+  height: 200px; }
+
+.col-md-8 {
+  text-align: left;
+  margin-bottom: 85px; }
+
+.col-md-4 {
+  margin-bottom: 130px; }
+
+.mywork {
+  font-family: "Raleway", sans-serif; }
+  .mywork #work {
+    margin-bottom: 35px; }
+  .mywork .card-img-top {
+    width: 100%;
+    height: 100px; }
+  .mywork #miami {
+    width: 100%;
+    height: 160px; }
+  .mywork #zengarden {
+    width: 100%;
+    height: 150px; }
+  .mywork #cruise {
+    width: 100%;
+    height: 150px; }
+  .mywork .blockquote-footer {
+    color: white; }
+
+.skills {
+  font-family: "Raleway", sans-serif;
+  color: white;
   background: #000862;
-  color: whitesmoke;
-  display: flex;
-}
+  height: 607px; }
+  .skills #myskills {
+    padding-top: 1em; }
+  .skills #socialimg {
+    height: 125px; }
+  @media (min-width: 589px) {
+    .skills .skills {
+      height: 275px; } }
+  @media (min-width: 768px) {
+    .skills .skills {
+      height: 320px; } }
 
-.hero {
+#contact {
+  margin-top: 3em;
+  font-family: "Raleway", sans-serif; }
+
+.col-md-6 mb3 {
+  padding-bottom: 3em; }
+
+#social {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
+  justify-content: center;
+  padding-top: 6em; }
+
+#socialicon {
+  height: 75px;
+  text-align: center;
+  margin-bottom: 3em; }
 
 /*# sourceMappingURL=style.css.map */

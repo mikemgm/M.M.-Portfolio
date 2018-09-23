@@ -1,62 +1,251 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MM Portfolio</title> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MM Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
-    <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" /> 
+        <link rel="stylesheet" href="images/..">
+        <script src="main.js"></script>
 </head>
 <body> 
-        <nav class="navbar">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li> 
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul> 
-                <div><h1>M.M.</h1></div> 
-        </nav> 
-    <header class="header">
-            <p id="me"> "I AM MIKE MCCALLUM " 
-                Subtitle Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vero veniam ratione sapiente? Deserunt sequi consequuntur sapiente, molestias quaerat error beatae voluptatum a et mollitia! A harum eveniet quod labore.</p> 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-*" style="background-color: #000862;" >
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">M.M.</a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#about">About</a>
+                                  </li> 
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#work">Work</a>
+                                   </li> 
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#myskills">Skills</a>
+                                  </li> 
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#contact">Contact</a>
+                                  </li>
+                  </ul>
+                  
+                </div>
 
-    </header>
-    <section class= "container1">
-        <div class="hero">
+        </nav>  
+        <div class="jumbotron">
+                <h1 class="display-4"> Jr. Full-Stack Web Developer</h1>   
+                <p class="lead" id="lead1">I design, build, and create sophisticated websites.</p>
+              </div>
+            
+         </div>
+
+         <div class="container">
+            <div class="column" id="about">
+                <h1>Hello! I am Mike McCallum</h1> 
+                <img src="/Users/mikemccallum/CODES/Assignments/Portfolio/images/me*mod.jpg" alt="Mike McCallum" class="rounded-circle"> 
+               </div>
+         </div> 
+
+         <div class="mesection">
+        <div class="container" id="myself"> 
+                <h2>A Little About Myself...</h2>
+            <div class="d-flex flex-row flex-wrap justify-content-around"> 
+                <div class="col-md-8">I have been a creative web designer for a little over a month now. Amazing, right!? Although my journey as a junior developer has just begun, my previous background is in video production. <br> When I am not coding I am playing soccer, catching up on series, reading books, and listening to house music. <br> I also enjoy traveling and exploring the unique things this world of ours has to offer. So far, I have lived in 13 different cities... check them out! -->   </div> 
+                <div class="col-md-4"><img class="ml-3" src="images/globe dummy.png" alt="network globe"></div> 
+            </div>
+            
+        <div class="mywork">
+        <div class="container"> 
+            <h2 id="work">My Projects</h2>
+            <div class="card-columns">
+                    <div class="card"> 
+                      <img class="card-img-top" src="images/pokemon.png" alt="Pokemon Terminal"> 
+                      <div class="card-body">
+                        <h5 class="card-title">Pokemon Terminal</h5>
+                        <p class="card-text">Choose between three pokeballs and listen to the name of your new Pokemon, its first move, and the first city you'll encounter your first gym battle! </p> 
+                        <a href="#" class="btn btn-*" style="background-color: #000862;">See Code</a> 
+                      </div>
+                    </div>
+                    <div class="card p-3">
+                      <img class="card-img-top" id="zengarden" src="images/garden.png" alt="Zen Garden CSS Website">
+                      <div class="card-body">
+                            <h5 class="card-title">Zen Garden Website</h5>
+                            <p class="card-text"> Take a relaxing scroll through the beauties of CSS styling. Enter my Zen Garden website to see some cool CSS features. </p> 
+                            <a href="#" class="btn btn-*" style="background-color: #000862;">Visit Garden</a> 
+                          </div> 
+                    </div> 
+                    <div class="card bg-* text-white text-center p-3" style="background-color: #000862;">
+                            <blockquote class="blockquote mb-0">
+                              <h3>THE SHOWROOM</h3>
+                              <footer class="blockquote-footer">
+                                <small> More On The Way!</small>
+                              </footer>
+                            </blockquote>
+                          </div> 
+                    <div class="card">
+                      <img class="card-img-top" id="miami" src="images/miami.png" alt="Miami-website">
+                      <div class="card-body">
+                        <h5 class="card-title">Miami Mockup-Website</h5>
+                        <p class="card-text">Interested in some of the most luxurious condos and homes money can buy? Checkout my Miami Real Estate Mockup-Website! .</p> 
+                        <a href="#" class="btn btn-*" style="background-color: #000862;">Visit Your New Home</a> 
+                      </div>
+                    </div>  
+                    <div class="card">
+                            <img class="card-img-top" id="cruise" src="images/cruise.png" alt="Cruise App">
+                    <div class="card text-center">
+                            <div class="card-body">
+                              <h5 class="card-title">MS Cruises</h5>
+                              <p class="card-text">Book a cruise holiday using this user-friendly booking system built within the Terminal App.</p> 
+                              <a href="#" class="btn btn-*" style="background-color: #000862;">Book Now!</a>
+                            </div>
+                          </div>
+                          
+                          </div>
+                    
+                    
+                    
+                   
+                    
+   
+                  </div>
+                </div>
+
+
+
+
+
+
+                
+        </div>
+
+
+        
+            </div> 
+        </div>
+            
+        <div class="skills">
+        <div class="container"> 
+                <h2 class="text-center" id="myskills">My Tech</h2>   
+                    <div class="row"> 
+                            <div class="col-sm-3">
+                                <img src="images/html-5.png" class="img-thumbnail" alt="fb image" id="socialimg"> 
+                            </div>
+                            <div class="col-sm-3">
+                                    <img src="images/css (1).png" class="img-thumbnail" alt="twitter image" id="socialimg"> 
+                                </div> 
+                                <div class="col-sm-3">
+                                    <img src="images/bootstrap.jpg" class="img-thumbnail" alt="github image" id="socialimg">
+                                    </div> 
+                                        <div class="col-sm-3">
+                                            <img src="images/ruby.png" class="img-thumbnail" alt="linkedin image" id="socialimg">  
+                                            </div> 
+                                           
+            
+                                        </div>
+            
+                        </div>
+                    </div>
+
+            <!-- <div class="d-flex flex-row flex-wrap justify-content-column"> --> 
+        
+
+        <div class="section" id="contact">
+        <div class="container"> 
+            <h2>Let's Work Together!</h2>
+            <div class="row"> 
+                <div class="col-md-6 mb3">
+                <p>Feel free to email me and we can discuss in more detail the future of your web page.</p> 
+                <button type="button" class="btn btn-outline-dark">Get in Touch</button>
+                </div>
+
+
+            </div>
+        </div>
+        </div> 
+
+        <div class="footer"> 
+            <div class="container" id="social">
+            <div class="row"> 
+                <div class="row-sm-3">
+                    <img src="images/facebook.png" class="img-thumbnail" alt="fb image" id="socialicon"> 
+                </div>
+                <div class="row-sm-3">
+                        <img src="images/twitter.png" class="img-thumbnail" alt="twitter image" id="socialicon"> 
+                    </div> 
+                    <div class="row-sm-3">
+                           <a href="https://github.com/mikemgm"> <img src="images/github-logo.png" class="img-thumbnail" alt="github image" id="socialicon"></a>
+                        </div> 
+                            <div class="row-sm-3">
+                                   <a href="https://www.linkedin.com/in/mikemgm/"><img src="images/linkedin.png" class="img-thumbnail" alt="linkedin image" id="socialicon"></a>  
+                                </div>
+
+                            </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html> 
+
+ <!-- ABOUT EXTRA INFO: 
+              I have a bachelor's degree in Creative Media Productions and a minor in Business Administration. This has helped me develop skills in the procedure of production such as directing a team, producing content for clients, managing budgets, and oversee the delivery of the final product with the highest expectations. -->
+
+       <!-- <header> 
+            <div class="header">
+                <div id="headertext">
+                    <h2>"I AM MIKE MCCALLUM "</h2> 
+                Subtitle Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur vero veniam ratione sapiente? Deserunt sequi consequuntur sapiente, molestias quaerat error beatae voluptatum a et mollitia! A harum eveniet quod labore.
+                </div>    
+            </div>
+
+    </header> 
+    <section class= "container">
+        <div class="row" id="hero">
             <h3 id="hello">Hello Friend! Welcome!</h3> 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi voluptate ducimus velit eius recusandae ea nemo laborum eligendi odio quod? Iste similique expedita tenetur repellat deserunt odio tempore voluptates id?</p>   
         </div>
    </section> 
 
-    <div class= "aboutme">
-       <h2>A Little About Myself</h2>
-       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi quam, impedit ea quidem enim eaque soluta. Consequatur, molestiae. Repellendus impedit hic voluptatem, fuga saepe maxime tenetur sed repudiandae! Quam.</p>
-    </div>
+   <div class="container"> 
+    <a name="about"></a>
+        <h2>A Little About Myself</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nisi quam, impedit ea quidem enim eaque soluta. Consequatur, molestiae. Repellendus impedit hic voluptatem, fuga saepe maxime tenetur sed repudiandae! Quam.</p>
+      </div>
+       
 
     <section class="professional">
-    <div class="mywork">
+    <div class="mywork"> 
+    <a name="work"></a>
         <h3>What I have accomplished</h3>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus illum cupiditate magni quos laudantium odio officiis nemo vitae! Dignissimos unde deserunt quam ipsum cupiditate, enim deleniti tenetur dolorem aliquam rerum?</p>
     </div> 
 
-    <div class="skills">
+    <div class="skills"> 
+    <a name="skills"></a>
         <h3>My Skills</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia iste a nemo eligendi harum quam asperiores quidem placeat obcaecati animi iure natus quisquam repellendus voluptatibus, quia ducimus nesciunt maiores.</p>
 
     </div>
     </section>
 
-    <div class="contact">
+    <div class="contact"> 
+    <a name="contact"></a>
         <h3>Lets Work Together!</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vero optio blanditiis ab labore ex laudantium libero eaque sequi molestiae placeat recusandae esse necessitatibus, possimus eos. Quo similique architecto illo!</p>
-
-    </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-</body>
-</html> 
-
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque vero optio blanditiis ab labore ex laudantium libero eaque sequi molestiae placeat recusandae esse necessitatibus, possimus eos. Quo similique architecto illo!</p> -->
