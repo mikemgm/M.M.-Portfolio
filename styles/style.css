@@ -76,9 +76,12 @@ body {
     padding-top: 1em; }
   .skills #socialimg {
     height: 125px; }
-  @media (min-width: 576px) {
+  @media (min-width: 589px) {
     .skills .skills {
       height: 275px; } }
+  @media (min-width: 768px) {
+    .skills .skills {
+      height: 320px; } }
 
 #contact {
   margin-top: 3em;

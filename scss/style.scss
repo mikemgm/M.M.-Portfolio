@@ -105,11 +105,18 @@ padding-top: 1em;
     height: 125px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 589px) {
     .skills{ 
         height: 275px;
+    } 
+}
+
+@media (min-width: 768px) {
+    .skills{
+        height: 320px;
     }
 }
+
 }
 
 
