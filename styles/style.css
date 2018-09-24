@@ -79,7 +79,7 @@ body {
   @media (min-width: 589px) {
     .skills .skills {
       height: 275px; } }
-  @media (min-width: 768px) {
+  @media only and (min-width: 768px) {
     .skills .skills {
       height: 320px; } }
 
